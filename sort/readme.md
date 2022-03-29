@@ -2,7 +2,7 @@
 
 ## What is Sorting?
 By definition, sorting refers to arranging the elements in either decending or ascending order! For instance, the following img size is not in right order, so we can use either of the sorting algorithms to make it sorted in right order!
-Now, let's learn see different types of sorting algorithms!
+Now, let's see an overview diagram of different types of sorting algorithms! 👇
 
 <img src="./img/sort.png">
 
@@ -64,7 +64,8 @@ Now, let's learn see different types of sorting algorithms!
 - all elements at the left side of the pivot gotta be smaller n all the elements at rite side of the pivot gotta be bigger! ---> Partition the array into 2 parts!
 <img src="./img/qs1.png">
 
-- **How?**  pick a pivot, then a left n right pointers. 
+- **How?** 🤔
+- Pick a pivot, then a left n right pointers. 
 - Start comparing each of them w/ the pivot
     - if left pointer is greater or equal to the pivot then move 1 step left
     - if right pointer is smaller/equal to the pivot then move 1 step right 
