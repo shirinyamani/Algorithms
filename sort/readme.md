@@ -4,7 +4,7 @@
 By definition, sorting refers to arranging the elements in either decending or ascending order! For instance, the following img size is not in right order, so we can use either of the sorting algorithms to make it sorted in right order!
 Now, let's see an overview diagram of different types of sorting algorithms! 👇
 
-<img src="./img/sort.png">
+<img src="./img/sort.png" class="center">
 
 ## Sorting Terminology
 - **Increasing Order:**
