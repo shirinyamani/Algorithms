@@ -47,7 +47,7 @@ Now, let's learn see different types of sorting algorithms!
 **Code is added to the `Sort.py` file**
 
 # Insertion Sort
-- Pretty similar to the selection sort, but the difference is in Selection sort we find n pick them **min** element, however in insertion sort, we pick the first element
+- Pretty similar to the selection sort, but the difference is in Selection sort we find n pick them **min** element, however in insertion sort, we pick the first element!
 **Code is added to the `Sort.py` file**
 
 # Merge Sort
