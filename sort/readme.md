@@ -11,16 +11,16 @@ Now, let's learn see different types of sorting algorithms!
 
 ## Sorting Terminology
 - **Increasing Order:**
-    - if a successive element is greater than the pre one!
+    - if a successive element is greater than the prev one!
     - exp: [1,2,3,4,5]
 - **Decreasing Order:**
-    - if a successive element is less than the pre one!
+    - if a successive element is less than the prev one!
     - exp: [5,4,3,2,1]
 - **Non-increasing order:**
-    - if a successive element is equal or less than the pre one! **Note** that it is differenct from decreasing order! In this type, we have duplicate elements!
+    - if a successive element is equal or less than the prev one! **Note** that it is differenct from decreasing order! In this type, we have duplicate elements!
     - exp: [11,9,7,7,5,4] (9 is less than 11, 7 is less than 9,...)
 - **Non-decreasing order:**
-    - if a successive element is equal or greater than the pre one! **Note** that it is differenct from increasing order! In this type, we have duplicate elements!
+    - if a successive element is equal or greater than the prev one! **Note** that it is differenct from increasing order! In this type, we have duplicate elements!
     - exp: [4,5,6,6,7,8] 
     - **Note** that **NON** keyword means we have duplicate elements!
 
