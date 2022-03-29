@@ -57,6 +57,7 @@ Now, let's see an overview diagram of different types of sorting algorithms! ðŸ‘
 ## When to use it?
 - Ya need a stable sort!
 - Efficient time complexity of  O(log(n))
+**Code is added to the `Sort.py` file**
 
 # Quick Sort
 - divide n conquer algorithm!
@@ -73,6 +74,7 @@ Now, let's see an overview diagram of different types of sorting algorithms! ðŸ‘
 ## When to use it?
 - Time complexity of O(n log(n))
 - **Not** used when ya need a stable sort! n space matters!
+**Code is added to the `Sort.py` file**
 
 # Heap Sort
 - It is similar to selection sort where we first find the maximum element and place the maximum element at the end. We repeat the same process for the remaining element.
