@@ -100,7 +100,8 @@ def quickSort(start, end, arr):
     print(arr)
 
 #Heap Sort
-
+def heapSort(arr):
+    pass
 
 
 
