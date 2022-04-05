@@ -30,3 +30,5 @@ Graph can have a cycle/loop in itself, whereas tree can't!
         - add all the unvisited neighbors to the queue
 
 <img src="./img/bfs1.png">
+
+## Python code added to the `graph.py` file
