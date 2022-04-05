@@ -40,3 +40,10 @@ Python code added to the `graph.py` file
 <img src="./img/dfs.png">
 
 ## DFS desudo Code
+1. Define a stack to store the nodes!
+2. Push any starting node to the stack!
+3. while stack is not empty:
+    - pop the first node from the stack 
+    - if the node has not been visited:
+        - mark it as visited
+        - push all the unvisited neighbors to the stack!
