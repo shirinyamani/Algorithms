@@ -47,3 +47,5 @@ Python code added to the `graph.py` file
     - if the node has not been visited:
         - mark it as visited
         - push all the unvisited neighbors to the stack!
+
+<img src="./img/dfss.png">
