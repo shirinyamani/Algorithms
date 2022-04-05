@@ -35,3 +35,5 @@ Python code added to the `graph.py` file
 
 ## DFS
 - Go as far as possible thro the nodes before backtracking!
+
+<img src="./img/dfs.png">
