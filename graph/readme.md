@@ -28,3 +28,5 @@ Graph can have a cycle/loop in itself, whereas tree can't!
     - if the node has not been visited:
         - mark it as visited
         - add all the unvisited neighbors to the queue
+
+<img src="./img/bfs1.png">
