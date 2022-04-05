@@ -20,3 +20,11 @@ Graph can have a cycle/loop in itself, whereas tree can't!
 - Difference w/ tree: possible to have a loop, but to avoid it, we define "visited" nodes to not return back to the ones that already have been visited!
 
 <img src="./img/bfs.png">
+
+**Implementation desudo Code**
+- define a queue to store the nodes that are to be visited!
+- while queue is not empty:
+    - pop the first node from the queue (Dequeue)
+    - if the node has not been visited:
+        - mark it as visited
+        - add all the unvisited neighbors to the queue
