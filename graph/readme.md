@@ -21,7 +21,7 @@ Graph can have a cycle/loop in itself, whereas tree can't!
 
 <img src="./img/bfs.png">
 
-## BFS Implementation desudo Code
+## BFS desudo Code
 1. Define a queue to store the nodes that are to be visited!
 2. while queue is not empty:
     - pop the first node from the queue (Dequeue)
@@ -35,5 +35,8 @@ Python code added to the `graph.py` file
 
 ## DFS
 - Go as far as possible thro the nodes before backtracking!
+- Implements using Stack (LIFO)
 
 <img src="./img/dfs.png">
+
+## DFS desudo Code
