@@ -21,9 +21,9 @@ Graph can have a cycle/loop in itself, whereas tree can't!
 
 <img src="./img/bfs.png">
 
-**Implementation desudo Code**
-- define a queue to store the nodes that are to be visited!
-- while queue is not empty:
+## BFS Implementation desudo Code
+1. Define a queue to store the nodes that are to be visited!
+2. while queue is not empty:
     - pop the first node from the queue (Dequeue)
     - if the node has not been visited:
         - mark it as visited
