@@ -29,6 +29,6 @@ Graph can have a cycle/loop in itself, whereas tree can't!
         - mark it as visited
         - add all the unvisited neighbors to the queue
 
-<img src="./img/bfs1.png">
+<img src="./img/bfsq.png">
 
-## Python code added to the `graph.py` file
+Python code added to the `graph.py` file
