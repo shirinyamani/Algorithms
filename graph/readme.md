@@ -32,3 +32,6 @@ Graph can have a cycle/loop in itself, whereas tree can't!
 <img src="./img/bfsq.png">
 
 Python code added to the `graph.py` file
+
+## DFS
+- Go as far as possible thro the nodes before backtracking!
