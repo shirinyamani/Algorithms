@@ -49,3 +49,7 @@ Python code added to the `graph.py` file
         - push all the unvisited neighbors to the stack!
 
 <img src="./img/dfss.png">
+
+## Summary
+
+<img src="./img/sum.png">
