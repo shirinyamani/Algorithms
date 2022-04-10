@@ -17,7 +17,7 @@ As we discussed earlier in this article, **BFS** is a level-based traversal! The
 
 <img src="./img/bfs.png">
 
-## Dsudeo Code 🤓
+## BFS dsudeo Code 🤓
 
 ```
 enque any starting point
