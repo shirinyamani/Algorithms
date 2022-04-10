@@ -1,4 +1,4 @@
-# Dijkstra Algorithm
+# Dijkstra Algorithm 😈
 
 Remember in SSSPP problem in case our graph is weighted, we couldnt use the BFS method? 
 So the solution to the same problem for the case of weighted graph is **Dijkstra 😎**!
