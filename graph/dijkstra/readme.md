@@ -12,3 +12,9 @@ The idea is pretty simple!
 4. If the sumation of step 3, is **less** than the next node cost, we update the nxt node cost to the calculated cost!
 5. If not, we don't do anything n leave the costs the way they are so far!
 6. We compare the nodes, chose the minimum among them n continue our path along the minimum node!
+
+
+## 🔥 Notice
+
+**Dijkstra** does not work on Negative Cycle Graphs!
+
