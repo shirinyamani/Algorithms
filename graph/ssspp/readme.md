@@ -17,4 +17,16 @@ As we discussed earlier in this article, **BFS** is a level-based traversal! The
 
 <img src="./img/bfs.png">
 
+## Dsudeo Code 🤓
+
+```
+enque any starting point
+while q is not empty:
+    deque a vertex
+    if vertex is unvisited:
+    mark it as visited
+    then enque all adjacent vertex of the selected vertex
+    update the parent of the adjvertexes
+```
+
 
