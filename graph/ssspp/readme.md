@@ -1,8 +1,6 @@
 # Single Source Shortest Path Problem 
 
-by defintion this problem stands for traversing thro weighted graph starting at one vertex then getting to the the target vertex in a way that the cost(overal edge weight) of the path is minimum!
-
-#######add img Paris, London
+by defintion this problem stands for traversing thro (un)weighted graph starting at one vertex then getting to the the target vertex in a way that the cost(overal edge weight) of the path is minimum!
 
 ## Solution
 
@@ -29,4 +27,7 @@ while q is not empty:
     update the parent of the adjvertexes
 ```
 
+## 🔥 Notice
+
+**BFS** does not work on Weighted Graphs! 
 
