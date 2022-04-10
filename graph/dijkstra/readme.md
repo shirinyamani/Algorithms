@@ -11,3 +11,4 @@ The idea is pretty simple!
 3. The way we work is add(+) the current node cost plus the cost on edge, then..
 4. If the sumation of step 3, is **less** than the next node cost, we update the nxt node cost to the calculated cost!
 5. If not, we don't do anything n leave the costs the way they are so far!
+6. We compare the nodes, chose the minimum among them n continue our path along the minimum node!
