@@ -16,7 +16,7 @@ The idea is pretty simple!
 
 ## 🔥 Notice
 
-**Dijkstra** does not work on Negative Cycle Graphs! Ya ask why? Look at the picture below!
+**Dijkstra** does not work on Negative Cycle Graphs! Here is why:👇
 
 #####Add Picture!
 
@@ -25,4 +25,7 @@ But opss... there is a Negative edge there! So let's go thro it and see what hap
 So as ya saw, as we walked thro the cycle heading to A, the total sum of the weights became Negative! (-5)! 
 Remember, the overal goal was to find minimum cost? So what if we go thro the cycle one more time? If so, the total sum will be -7 which is less than -5! So as ya go over n over the loop, the overall weight becomes smaller n smaller! Which means we are stucking in n infinity loop, right? So that's why Dijkstra is not working on Negative Cycle Graphs!
 
+**So what's the Solution?🤔**
+
+Bellman Ford Algorithm! 😎
 
