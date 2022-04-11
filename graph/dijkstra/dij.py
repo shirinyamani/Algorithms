@@ -16,7 +16,7 @@ class Graph:
 
 
 def dijkstra(graph, start):
-    visited = {start:0} #dont go over the gone path twice!
+    visited = {start:0} #dont go over the gone path twice; set the starting point distance to Zero!
     path = defaultdict(list) #want the path from A to B nodes!
 
     nodes = set(graph.nodes)
