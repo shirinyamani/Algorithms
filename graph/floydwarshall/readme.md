@@ -15,5 +15,5 @@ if D[source][destination] > D[source][viaX] + D[viaX][destination]:
 
 So for exp imagine we wanna get to A from D via C! if so, then the D[source] will be D, D[destination] will be A and viaX will be C! then the calculation comes afterward!
 
-So what we are basically doing here is using **all** vertices as **viaX** one time and calculate the formula and if it passes the condition then we update the relative edge in the initial Matrix! (12 in Matrix)
+So what we are basically doing here is using **all** vertices as **viaX** one time and calculate the formula and if it passes the condition then we update the relative edge in the initial Matrix! (12 in Matrix) we do the same process for each and every Vertices in the Matrix (**V=number of Vertices times**)!
 
