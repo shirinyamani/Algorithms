@@ -21,6 +21,11 @@ if the distance + weight of the source Vertex is less than the distance of the n
 ```
 
 Now let's look at the Negative case!
-Remember I mentioned we run the algorithm `number of vertex - 1` times e.g. 4 times in our case? But just let's assume that we run it one more time(5 times!). if so, as you can see in the chart below the weights gonna be changed! So, we can conclude that whenever the weights changes, we have a negative cycle in the graph!
+Remember I mentioned we run the algorithm `number of vertex - 1` times e.g. 4 times in our case? But just let's assume that we run it one more time(5 times!). if so, as you can see in the chart below the weights gonna be changed! So, we can conclude that whenever the weights changes, we have a negative cycle in the graph! 
 
 ###add just the 5th iteration chart
+
+So as ya see if we check the Vth iteration then we can catch the negative cycle!
+
+## BFS vs. Dijkstra vs. Bellman Ford
+
