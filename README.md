@@ -11,9 +11,6 @@ In this repo we will summerize different type of algorithmds which are required 
 - **Searching Algorithms**
     - Linear Search
     - Binary Search
-    - Jump Search
-    - Interpolation Search
-    - Exponential Search
 - **Graph Algorithms**
     - Dijkstra's Algorithm
     - Bellman-Ford Algorithm

@@ -20,3 +20,7 @@ if the distance + weight of the source Vertex is less than the distance of the n
     update the distance of the destination Vertex to the distance + weight between the source Vertex and destination Vertex
 ```
 
+Now let's look at the Negative case!
+Remember I mentioned we run the algorithm `number of vertex - 1` times e.g. 4 times in our case? But just let's assume that we run it one more time(5 times!). if so, as you can see in the chart below the weights gonna be changed! So, we can conclude that whenever the weights changes, we have a negative cycle in the graph!
+
+###add just the 5th iteration chart
