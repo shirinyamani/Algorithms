@@ -15,3 +15,5 @@ In this repo we will summerize different type of algorithmds which are required 
     - Dijkstra's Algorithm
     - Bellman-Ford Algorithm
     - Floyd-Warshall Algorithm
+    - Kruskal's Algorithm
+    - Prim's Algorithm
