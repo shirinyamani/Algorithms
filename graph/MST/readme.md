@@ -20,4 +20,4 @@ Before heading to implementation, let's take a look at Disjoin Set data structur
 
 <img src="./img/MST2.png">
 
-`Code is added to `mst.py` file`
+`Code is added to mst.py file`
