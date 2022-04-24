@@ -14,7 +14,7 @@ Graph can have a cycle/loop in itself, whereas tree can't!
 - Depth First Search (DFS)
 - Breadth First Search (BFS)
 
-## BFS 
+## BFS ---> wider/broader on surface!
 - Level order traversal
 - Implements using Queue (FIFO)
 - Difference w/ tree: possible to have a loop, but to avoid it, we define "visited" nodes to not return back to the ones that already have been visited!
@@ -33,7 +33,7 @@ Graph can have a cycle/loop in itself, whereas tree can't!
 
 Python code added to the `graph.py` file
 
-## DFS
+## DFS ---> deep in the tree/ asking children for a path!
 - Go as far as possible thro the nodes before backtracking!
 - Implements using Stack (LIFO)
 
