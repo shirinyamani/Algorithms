@@ -60,6 +60,8 @@ But the problem with it is that it can get pretty tiring! Since maybe the target
 
 <img src="./img/dfsCTCI.png">
 
+- Types of **DFS**: Pre-order, In-order, Post-order
+
 ## DFS desudo Code
 1. Define a stack to store the nodes!
 2. Push any starting node to the stack!
