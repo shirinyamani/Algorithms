@@ -34,7 +34,7 @@ Graph can have a cycle/loop in itself, whereas tree can't!
 Python code added to the `graph.py` file
 
 ## DFS ---> deep in the tree/ asking children for a path!
-- Hey Node X, do ya have a path to node Y? 
+Hey Node X, do ya have a path to node Y? 
 
 Node X: hmm, I'm not sure, lemme go and ask from my children!
 
