@@ -15,9 +15,17 @@ Graph can have a cycle/loop in itself, whereas tree can't!
 - Breadth First Search (BFS)
 
 ## BFS ---> wider/broader on surface!
-- Level order traversal
-- Implements using Queue (FIFO)
-- Difference w/ tree: possible to have a loop, but to avoid it, we define "visited" nodes to not return back to the ones that already have been visited!
+Hey S, do ya have a path to t?
+
+S: Hmm, lemme check each of nodes being t!
+
+S: No, none of my nodes are t! So each of those nodes get in line (**queue a,b**) and then we ask second level nodes (c,d) and so on!
+
+So we go level by level wider before we get deep! That's why we call it BFS!
+
+**NOTE TO REMEMBER**:
+When ya start asking "her S do ya have a path to t?" ya gonna go and add all it's children to the queue! And rather than going recursively, ya just pull out the first element(a) n check if it isn't t, then ya're gonna add all the next level children to the queue and so on!
+
 
 <img src="./img/bfs.png">
 
@@ -46,11 +54,11 @@ The process goes on and on and on, till we get to the target point!
 So as ya see DFS build with **Recursion**. 
 But the problem with it is that it can get pretty tiring! Since maybe the target node is right next to the starting node, while we go deep in the trees children! So that's why we sometimes prefer to use **BFS**! 
 
-- **NOTE TO REMEMBER:** In order to avoid stuck in an infinite loop, we need a **flag** to make sure that we have visited a node!
-- Implements using Stack (LIFO)
+**NOTE TO REMEMBER:** In order to avoid stuck in an infinite loop, we need a **flag** to make sure that we have visited a node!
+
+- Implements using **Stack** (LIFO) and in **Recursion** matter!
 
 <img src="./img/dfsCTCI.png">
-<img src="./img/dfs.png">
 
 ## DFS desudo Code
 1. Define a stack to store the nodes!
@@ -60,6 +68,7 @@ But the problem with it is that it can get pretty tiring! Since maybe the target
     - if the node has not been visited:
         - mark it as visited
         - push all the unvisited neighbors to the stack!
+<img src="./img/dfs.png">
 
 <img src="./img/dfss.png">
 
