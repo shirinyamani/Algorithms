@@ -26,7 +26,7 @@ So we go level by level wider before we get deep! That's why we call it BFS!
 **NOTE TO REMEMBER**:
 When ya start asking "her S do ya have a path to t?" ya gonna go and add all it's children to the queue! And rather than going recursively, ya just pull out the first element(a) n check if it isn't t, then ya're gonna add all the next level children to the queue and so on!
 
-
+<img src="./img/bfsctci.png">
 <img src="./img/bfs.png">
 
 ## BFS desudo Code
