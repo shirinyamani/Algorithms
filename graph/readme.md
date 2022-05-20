@@ -35,9 +35,13 @@ Python code added to the `graph.py` file
 
 ## DFS ---> deep in the tree/ asking children for a path!
 - Hey Node X, do ya have a path to node Y? 
+
 Node X: hmm, I'm not sure, lemme go and ask from my children!
+
 Node X-child1: Hey child, do ya have a path to node Y? 
+
 Node X-grandchild: Hmm, I'm not sure! Lemme go n ask from my child!
+
 The process goes on and on and on, till we get to the target point! 
 So as ya see DFS build with **Recursion**. 
 But the problem with it is that it can get pretty tiring! Since maybe the target node is right next to the starting node, while we go deep in the trees children! So that's why we sometimes prefer to use **BFS**! 
